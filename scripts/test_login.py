@@ -16,6 +16,7 @@ def get_data():
         arrs.append((data.get("username"), data.get("password")))
     return arrs
 
+#我在改19行
 class TestLogin:
 #开始方法
     def setup_class(self):
